@@ -41,7 +41,21 @@
 // 4: Crie uma função `createMenu()` que, recebendo um objeto como parâmetro, retorna esse objeto no seguinte formato: 
 //  { fetchMenu: () => objetoPassadoPorParametro }.
 
-const createMenu = () => {};
+const createMenu = (objetoPassado) => {
+//   const objetoRetornado = {
+//     fetchMenu: () => {
+//       const menu = { objetoPassado };
+//     },
+//     consumption: [],
+//     order: (stringPar) => {},
+//     pay: () => {
+//       let soma = 0;
+//       for (let i = 0; i < consumption.length; i += 1) {
+//         soma += Object.values(consumption[i]);
+//       }
+//     }
+//   };
+};
 
 // Faça o item 5 no arquivo tests/restaurant.spec.js
 

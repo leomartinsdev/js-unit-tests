@@ -36,26 +36,23 @@ const createMenu = require('../src/restaurant');
 
 describe('10 - Implemente a função `createMenu`, bem como seus casos de teste', () => {
   it('Verifica se a função `createMenu` tem o comportamento esperado', () => {
-    fail('Teste vazio!');
     // 1: Verifique se função `createMenu()` retorna um objeto que possui a chave `fetchMenu`, a qual tem como valor uma função.
-
+    // expect(typeof createMenu().fetchMenu).toBe('function');
     // 2: Verifique se 'objetoRetornado.fetchMenu()' retorna um objeto cujas chaves são somente `food` e `drink`, 
     // considerando que a função createMenu() foi chamada com o objeto: `{ food: {}, drink: {} }`.
-
+    // expect(Object.keys(objetoRetornado.fetchMenu())).toEqual('food', 'drink');
     // 3: Verifique se o menu passado pra função createMenu() é idêntico ao menu recuperado pela função 'objetoRetornado.fetchMenu()'.
-
+    // expect(createMenu()).toEqual(objetoRetornado.fetchMenu());
     // 4: Faça a implementação do item 4 do README no arquivo src/restaurant.js.
-
     // 5: Verifique se 'objetoRetornado.consumption', após a criação do menu, retorna um array vazio.
-
+    // expect(objetoRetornado.consumption.length).toBe(0);
     // 6: Faça a implementação do item 6 do README no arquivo src/restaurant.js.
-    
     // 7: Verifique se, ao chamar uma função associada à chave `order` no objeto retornado, passando uma string como parâmetro
     // - se a string existir nas chaves 'food' ou 'drink', deve ser adicionada ao array consumption
     // - senão, deve exibir a mensagem "Item indisponível" e não adicionar nada ao array
     // Ex: obj.order('coxinha') --> ['coxinha']
     // Ex: obj.order('picanha') --> Exibe "Item indisponível"
-
+    // expect(objetoRetornado.consumption).toContain(objetoRetornado.order('coxinha'))
     // 8: Faça a implementação do item 8 do README no arquivo src/restaurant.js.
 
     // 9: Verifique se, ao adicionar três pedidos em sequência, dentre bebidas e comidas, o array `objetoRetornado.consumption` contém os itens pedidos.
